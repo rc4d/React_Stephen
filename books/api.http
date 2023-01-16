@@ -1,0 +1,26 @@
+GET http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+
+###
+
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+{
+    "title": "Pankaj Tirpathi"
+}
+
+###
+
+PUT http://localhost:3001/books/3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Creating the New India"
+}
+###
+
+
+Delete http://localhost:3001/books/6 HTTP/1.1
+Content-Type: application/json
+

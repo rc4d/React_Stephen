@@ -1,0 +1,19 @@
+
+.all-product{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.product-card{
+    border: 2px solid lightgray;
+    margin: 10px;
+    padding: 8px;
+    width: 400px;
+}
+.product-image{
+    width: 100%;
+    max-height: 334px;
+}
+.description{
+    flex-wrap: wrap;
+}

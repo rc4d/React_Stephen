@@ -1,0 +1,32 @@
+- Context Creation
+- Provider component 
+- return
+- consumer 
+- use
+
+in ContextName.js file
+
+import {createContext} from 'react';
+
+const paymentContext = createContext();
+
+const PaymentContextProvider = ({children}) => {
+
+
+    return <paymentContext.Provider value={dataToBeShared}>{children}</paymentContext.Provider>;
+}
+
+export {paymentContext, PaymentContextProvider};
+===================================
+// Index.js file
+import { PaymentContextProvider } from '../context';
+root.render(
+    <PaymentContextProvider>
+        <App />
+    </PaymentContextProvider>
+);
+============================useContext=================
+import {useContext} from 'react';
+import { PaymentContextProvider } from '../context';
+
+const {property1, property2} = useContext(paymentContext);

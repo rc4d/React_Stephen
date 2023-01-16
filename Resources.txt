@@ -1,2 +1,5 @@
 Notes for JSX: 
 https://jsx-notes.vercel.app/
+
+Notes to update state in different ways
+https://state-updates.vercel.app/

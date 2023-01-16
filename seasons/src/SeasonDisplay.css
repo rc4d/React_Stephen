@@ -1,0 +1,47 @@
+.icon-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.icon-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.season-display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.season-display.winter i{
+    color: rgb(134, 134, 203);
+}
+.season-display.summer i{
+    color: rgb(232, 109, 78);
+}
+
+.winter{
+    background-color: aliceblue;
+}
+
+.summer{
+    background: rgb(255, 190, 68);
+}
+
+
+/* 
+* UseEffect
+* Optimise
+    *Usememo
+*UseRef()
+* Redux  Definiation
+* Optimise 
+* Secure
+* Component Lifecycle
+
+* Expand Collapse
+*/
